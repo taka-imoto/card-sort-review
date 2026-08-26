@@ -1,5 +1,5 @@
-/* offline cache for the encrypted review page — build DaWVGY8C */
-const CACHE = 'card-sort-review-DaWVGY8C';
+/* offline cache for the encrypted review page — build z5uodG2Q */
+const CACHE = 'card-sort-review-z5uodG2Q';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png'];
 const clean = async res => { const h = new Headers(res.headers); h.delete('Vary'); return new Response(await res.blob(), { status: res.status, headers: h }); };
 self.addEventListener('install', e => e.waitUntil((async () => {
